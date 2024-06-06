@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/65acae00ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="title-container">
+            <i class="fa-solid fa-gamepad fa-2xl" style="color: #f20000;"></i>
+            <h1>Pokemon</h1>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Buscar pokemon">
+            <button id="search-button"><i class="fa-solid fa-magnifying-glass fa-2xl" style="color: #000000;"></i></button>
+            <button id="clear-button"><i class="fa-solid fa-trash fa-2xl" style="color: #000000;"></i></button>
+            
+        </div>
+        <div class="filters-container">
+            <select id="type-filter">
+                <option value="">Tipos</option>
+            </select>
+            <select id="pokedex-filter">
+                <option value="">Regiones</option>
+            </select>
+
+        </div>
+        <div class="pokemon-container"></div>
+        <div id="pokemon"></div>
+        <div id="pokemon-list"></div>
+        <div class="pagination">
+            <button id="prev-button" disabled><i class="fas fa-chevron-left fa-2x" style="color: #000000;"></i></button>
+            <span id="page-number">1</span>
+            <button id="next-button"><i class="fas fa-chevron-right fa-2x" style="color: #000000;"></i></button>
+        </div>
+       </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
