@@ -6,7 +6,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('/img/pokemon.jpg') no-repeat center center fixed;
     color: #333;
 }
 
